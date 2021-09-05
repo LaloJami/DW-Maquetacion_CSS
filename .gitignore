@@ -1,0 +1,8 @@
+# archivos que necesito que ignore
+#Imagenes
+*.png
+*.jpg
+#binarios
+*.woff
+*.ttf
+*.eot
