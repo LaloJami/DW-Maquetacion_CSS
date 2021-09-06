@@ -8,5 +8,8 @@
 * https://cssreference.io/css-grid/
 * https://developer.mozilla.org/en-US/docs/Web/CSS/grid
 * https://www.w3schools.com/css/default.asp
+
+### iconos 
+* https://www.flaticon.com/
 ## Análisis del proyecto: Blog Personal
 

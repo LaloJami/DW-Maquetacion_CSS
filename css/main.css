@@ -6,6 +6,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    font-size: 62.5%;
 }
 a {
     text-decoration: none;
@@ -33,4 +34,67 @@ header .header-icons-container .icons{
     justify-content: space-between;
     justify-self: end;
     margin-right: 50px;
+}
+header .icons span{
+    color: white;
+}
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+nav .nav-logo-container {
+    margin-left: 50px;
+}
+nav .nav-logo-container img{
+    width: 220px;
+    margin-top: 10px;
+}
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+nav .profile-link a{
+    color: black;
+    border-bottom: 1px solid black;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/img/Cover.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+main .main-container--title {
+    width: 70%;
+    max-height: 25vh;
+    letter-spacing: 1rem;
+    font-family: monospace;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+    margin-top: 11rem;
+    color: white;
+}
+main .main-container--button{
+    margin: 50px auto;
+}
+main .main-container--button button{
+    padding: 10px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #47cfac;
+    cursor: pointer;
 }
