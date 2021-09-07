@@ -178,3 +178,50 @@ footer p{
     margin-top: 30px;
     color: white;
 }
+.blogpost-img-container {
+    padding: 0 50px 40px;
+}
+.blogpost-img-container img{
+    width: 100%;
+}
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+.blogpost-main-container h3{
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+}
+.blogpost-main-container article h1{
+    font-size: 35px;
+}
+.contact-main-container {
+    width: 100%;
+    height: 300px;
+    background-color: #cdd2da;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact-main-container div{
+    width: 70%;
+    height: 50px;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+.contact-main-container img{
+    width: 100px;
+}
+.contact-main-container .contact-left{
+    width: 100%;
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr;
+}
+.contact-left a{
+    align-content: flex-end;
+    grid-row: 1;
+}
+.contact-left p{
+    grid-row: 2;
+}
