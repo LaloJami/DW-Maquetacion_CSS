@@ -11,5 +11,7 @@
 
 ### iconos 
 * https://www.flaticon.com/
-## Análisis del proyecto: Blog Personal
+
+### Grid
+* https://cssgridgarden.com/#es
 
